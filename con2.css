@@ -1,0 +1,64 @@
+
+.nav{
+    float: right; 
+
+
+
+
+    
+}
+a{
+    color:black;
+    text-decoration: none;
+    margin-inline: 30px;
+    
+
+}
+#b{
+    padding: 7px;
+    background-color: rgb(6, 81, 6);
+    border-radius: 55px;
+    color: white;
+}
+
+
+
+
+
+
+.logo{
+    box-shadow: 100px;
+     display:flex;
+     img{
+     border-radius: 45px;
+}
+}
+h1{
+ size: 200px;
+}
+
+body{
+    background-color:  rgb(141, 194, 141);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.ab{
+    font-size: large;
+}
+.te{
+    td{
+        padding-inline: 100px;
+    }
+}
+.ti{
+    td{
+        
+    }
+    td{
+    
+        padding-inline: 45px;
+        color:white;
+    }
+}
