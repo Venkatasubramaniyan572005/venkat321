@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    position: relative;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.tile.empty {
+    background-color: transparent;
+    cursor: default;
+}
+
+.tile-1 { background: url('photo1.jpg') no-repeat; background-position: -200px -200px; }
+.tile-2 { background: url('photo3.jpg') no-repeat; background-position: -100px -200px; }
+.tile-3 { background: url('photo2.jpg') no-repeat; background-position: 0 -200px; }
+.tile-4 { background: url('photo4.jpg') no-repeat; background-position: -200px -100px; }
+.tile-5 { background: url('photo5.jpg') no-repeat; background-position: -100px -100px; }
+.tile-6 { background: url('photo6.jpg') no-repeat; background-position: 0 -100px; }
+.tile-7 { background: url('photo7.jpg') no-repeat; background-position: -200px 0; }
+.tile-8 { background: url('photo8.jpg') no-repeat; background-position: -100px 0; }
+.tile-9 { background: url('photo9.jpg ') no-repeat; background-position: 0 0; }

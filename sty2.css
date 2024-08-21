@@ -1,0 +1,101 @@
+
+p
+{
+    text-align: left;
+    text-size-adjust: 100px;
+    font-family: fantasy;
+    padding: 100px;
+    color:white;
+
+    
+}
+img{
+    float: right;
+    border-radius: 45px;
+     border: 1px;
+     border:solid;
+     border-color: white;
+     padding: auto;
+     padding: white;
+     background-color: white;
+}
+.two
+{
+    img{
+
+    float: left;
+    border-radius: 45px;
+     border: 1px;
+     border:solid;
+     border-color: white;
+     padding: auto;
+     padding: white;
+     background-color: white;
+}
+p{
+    text-align: right;
+    text-size-adjust: 100px;
+    font-family: fantasy;
+    padding: 100px;
+    color:white;
+}
+}
+.thr{
+    img{
+        float:right;
+        border-radius: 45px;
+     border: 1px;
+     border:solid;
+     border-color: white;
+     padding: auto;
+     padding: white;
+     background-color: white;
+    }
+    p{
+        text-align: left;
+    text-size-adjust: 100px;
+    font-family: fantasy;
+    padding: 100px;
+    color:white;
+    }
+}
+.nav{
+     
+    text-align: right;
+    text-decoration: dashted;
+
+
+}
+
+a{
+    margin-left: 45px;
+    color:black;
+    padding: auto;
+    text-decoration: none;
+
+    
+}
+#b{
+    padding: 7px;
+    background-color: rgb(6, 81, 6);
+    border-radius: 55px;
+    color: white;
+}
+}
+body{
+    
+}
+.twlog{
+  img{
+    float:left;
+     
+  }
+}
+body{
+    background-color: rgb(141, 194, 141);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.twlog{
+  padding-bottom:45px;
