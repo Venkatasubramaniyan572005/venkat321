@@ -1,0 +1,78 @@
+html{
+    background-color: rgb(2, 3, 78);
+}
+body{
+   
+    
+}
+td{
+    color:#fff;
+    font-size: large;
+    font-style: italic;
+    
+}
+table{
+
+    margin-top: -1100px;
+
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    line-height: 30px;
+    
+}
+#mti{
+    color: white;
+    font-size: xx-large;
+    
+}
+
+#mt2{
+    color: white;
+    font-size: x-large;
+}
+nav{
+    float: right;
+    margin-top:15px;
+    a{
+        margin-inline: 20px;
+        color: white;
+        text-decoration: none;
+        &:hover{
+     
+    
+            border: solid rgb(201, 4, 4) 3px;
+            border-radius: 55px;
+            padding: 2.5px;
+        }
+        
+
+
+    }}
+    #log{
+        float: left;
+    
+        margin-top: 2px;
+        color: rgb(238, 7, 7);
+        span{
+            color:white;
+        }
+    }
+    li{
+        font-style: italic;
+        font-size: large;
+    }
+    #ph{
+        background-color: white;
+        border-radius: 50px;
+    }
+    table{
+margin-left: -100px;
+    
+    
+}
+#hand{
+    margin-top: 25px;
+}
+@media screen and(min-width:320px){
+    
+}

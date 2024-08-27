@@ -1,0 +1,106 @@
+nav{
+    float: right;
+    margin-top:15px;
+    a{
+        margin-inline: 20px;
+        color: white;
+        text-decoration: none;
+        &:hover{
+     
+    
+            border: solid rgb(201, 4, 4) 3px;
+            border-radius: 55px;
+            padding: 2.5px;
+        }
+        
+
+
+    }}
+    html{
+        background-color: rgb(2, 3, 78);
+    }
+    #log{
+        float: left;
+    
+        margin-top: 2px;
+        color: rgb(238, 7, 7);
+    }
+table{
+    padding-top: 150px;
+    padding-right: 220px;
+    td{
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+#ti1{
+    font-size: 65px;
+
+}
+#ti2{
+    font-size: 65px;
+}
+#ti3{
+    font-size: 65px;
+}
+.img2{
+    img{
+    float: inline-end;
+    margin-top: -250;
+    margin-left: 35px;
+    padding-right: 65px;
+
+}  
+} 
+span{
+    color: white;
+}
+#char{
+    img{
+    float: right;
+}
+}
+@media only screen and (min-width:320px) and (max-width:647)
+{
+    #off{
+        border-radius: 45px;
+    } 
+    #ti1{
+        font-size: 65px;
+        font-weight: bolder;
+    
+    }
+    #ti2{
+        font-size: 65px;
+        font-weight: bolder;
+    }
+    #ti3{
+        font-size: 65px;
+        font-weight: bolder;
+    } 
+    
+    table{
+        margin-left:-220px ;
+        padding-right: 0%;
+        ul{
+            font-size: 65px;
+        }
+    }
+    ul{
+        font-size: 65px;
+    }
+    
+}
+@media only screen and (min-width:320px)
+{
+    
+    table{
+        margin-top: -22px;
+        
+    td{
+        font-size: 45px;
+    } 
+}
+
+ 
+ }   
